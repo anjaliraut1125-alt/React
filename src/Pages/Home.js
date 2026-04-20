@@ -2,9 +2,9 @@ import React from "react";
 
 import './Home.css';
 
-function Home(){
+function Home(props){
     return(
-        <h2 class="text">Main Section</h2>
+        <h2 class="text">Welcome {props.name}, {props.age} , {props.title}</h2>
     );
 }
 
