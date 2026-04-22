@@ -7,6 +7,7 @@ import About from './Pages/About';
 import Counter from './Pages/Counter';
 import Conditional from './Pages/Conditional';
 import Ternary from './Pages/Ternary';
+import Studentlist from './Pages/Studentlist';
 
 function App() {
   return (
@@ -20,6 +21,8 @@ function App() {
 
     <Conditional/>
     <Ternary/>
+
+    <Studentlist/>
     </>
   
   );
