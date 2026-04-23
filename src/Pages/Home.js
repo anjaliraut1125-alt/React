@@ -4,7 +4,7 @@ import './Home.css';
 
 function Home(props){
     return(
-        <h2 class="text">Welcome {props.name}, {props.age} , {props.title}</h2>
+        <h2 className="text">Welcome {props.name}, {props.age} , {props.title}</h2>
     );
 }
 

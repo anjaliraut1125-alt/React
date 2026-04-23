@@ -8,6 +8,9 @@ import Counter from './Pages/Counter';
 import Conditional from './Pages/Conditional';
 import Ternary from './Pages/Ternary';
 import Studentlist from './Pages/Studentlist';
+import Hooks from './Pages/Hooks';
+import { MyContext } from './Pages/MyContext.';
+import Child from './Pages/Child';
 
 function App() {
   return (
@@ -23,6 +26,15 @@ function App() {
     <Ternary/>
 
     <Studentlist/>
+
+
+    <Hooks/>
+
+
+
+    <MyContext.Provider value="Anjali">
+      <Child/>
+    </MyContext.Provider>
     </>
   
   );
