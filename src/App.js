@@ -1,5 +1,4 @@
-import logo from './logo.svg';
-import './App.css';
+
 import Header from './Components/Header';
 import Footer from './Components/Footer';
 import Home from './Pages/Home';
@@ -11,6 +10,9 @@ import Studentlist from './Pages/Studentlist';
 import Hooks from './Pages/Hooks';
 import { MyContext } from './Pages/MyContext.';
 import Child from './Pages/Child';
+import Api from './Pages/Api';
+import ControlledForm from './Pages/ControlledForm';
+import Uncontrolled from './Pages/Uncontrolled';
 
 function App() {
   return (
@@ -32,10 +34,21 @@ function App() {
 
 
 
-    <MyContext.Provider value="Anjali">
+    {/* <MyContext.Provider value="Anjali">
       <Child/>
-    </MyContext.Provider>
+    </MyContext.Provider> */}
+
+
+
+    <Api/>
+
+    <ControlledForm/>
+
+    <Uncontrolled/>
+
     </>
+
+    
   
   );
 }

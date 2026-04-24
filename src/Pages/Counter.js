@@ -14,6 +14,8 @@ const [name , setName] = useState("");
         <h1>{count}</h1> 
         <button onClick={() => setCount(count + 1 )}> Increase The Number </button><br/><br/>
         <button onClick = {Click}> Click ME</button><br/><br/>
+        <hr style={{border: "1px solid black", width: "100%"}}/>
+
 
         <input type="text" onChange={(e) => setName(e.target.value)} placeholder="Enter Your Name"/>
         <h3>{name}</h3>
