@@ -10,7 +10,7 @@ function Uncontrolled(){
     return(
         <div>
             <input type="text" ref={inputRef}/>
-            <button onClick={handleSubmit}>Submit </button>
+            <button onClick={handleSubmit}>Submit</button>
         </div>
     );
 }

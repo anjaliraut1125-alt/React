@@ -8,14 +8,16 @@ import Conditional from './Pages/Conditional';
 import Ternary from './Pages/Ternary';
 import Studentlist from './Pages/Studentlist';
 import Hooks from './Pages/Hooks';
-import { MyContext } from './Pages/MyContext.';
-import Child from './Pages/Child';
+// import { MyContext } from './Pages/MyContext.';
+// import Child from './Pages/Child';
 import Api from './Pages/Api';
 import ControlledForm from './Pages/ControlledForm';
 import Uncontrolled from './Pages/Uncontrolled';
+import FormHandling from './Pages/FormHandling';
+import Login from './Pages/Login';
 
 function App() {
-  return (
+  return (  
     <>
     <Header/>
     <Home name="Anjali Singh" age="23"/><br/>
@@ -42,10 +44,19 @@ function App() {
 
     <Api/>
 
+    
+
     <ControlledForm/>
 
     <Uncontrolled/>
+    <br/>
 
+
+    <FormHandling/>
+    <br/>
+
+
+    <Login/>
     </>
 
     
