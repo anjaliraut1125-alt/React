@@ -15,6 +15,8 @@ function FormHandling(){
             <input type="email" value={email} onChange={(e) => setEmail(e.target.value)}/>
             <button type="submit">Submit</button>
 
+        <hr style={{border: "1px solid black", width: "100%"}}/>
+
         </form>
         
         

@@ -15,6 +15,8 @@ import ControlledForm from './Pages/ControlledForm';
 import Uncontrolled from './Pages/Uncontrolled';
 import FormHandling from './Pages/FormHandling';
 import Login from './Pages/Login';
+import Register from './Pages/Register';
+
 
 function App() {
   return (  
@@ -57,8 +59,13 @@ function App() {
 
 
     <Login/>
+
+
+    <Register/>
     </>
 
+
+    
     
   
   );

@@ -34,7 +34,8 @@ function Login(){
 
 
         <button type="submit">Login</button>
-
+        <hr style={{border: "1px solid black", width: "100%"}}/>
+        
 
     </form>
   );

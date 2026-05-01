@@ -10,6 +10,7 @@ function ControlledForm(){
             placeholder="Enter Name"/>
 
             <h3>Your Name: {name}</h3>
+            
         </div>
     );
 }
