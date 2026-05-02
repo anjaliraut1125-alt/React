@@ -17,6 +17,8 @@ import FormHandling from './Pages/FormHandling';
 import Login from './Pages/Login';
 import Register from './Pages/Register';
 
+import {BrowserRouter,Routes,Route} from "react-router-dom";
+
 
 function App() {
   return (  
@@ -62,6 +64,14 @@ function App() {
 
 
     <Register/>
+
+    <BrowserRouter>
+    <Routes>
+      <Route path= '/' element={<Home name="anjali" age="23" title="Routing Learn"/>}  />
+      <Route path= '/Register' element={<Register/>}  />
+
+    </Routes>
+    </BrowserRouter>
     </>
 
 
