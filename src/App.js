@@ -70,7 +70,8 @@ function App() {
     <br/>
     
     <BrowserRouter>
-      <Multipage/>
+     <div class="ps-page">
+      <Header/>
       <Routes>
 
         <Route path="/" element={<Home/>}/>
@@ -80,6 +81,7 @@ function App() {
 
       </Routes>
       <Footer/>
+      </div>
     </BrowserRouter>
 
     
