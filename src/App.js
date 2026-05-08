@@ -22,6 +22,7 @@ import Register from './Pages/Register';
 import {BrowserRouter,Routes,Route} from "react-router-dom";
 // import Child from './Pages/Child';
 import Multipage from './Pages/Multipage';
+import Blog from './Pages/Blog';
 
 
 function App() {
@@ -65,9 +66,9 @@ function App() {
 
     
 
+    {/* <br/>
     <br/>
-    <br/>
-    <br/>
+    <br/> */}
     
     <BrowserRouter>
      <div class="ps-page">
@@ -76,8 +77,8 @@ function App() {
 
         <Route path="/" element={<Home/>}/>
         <Route path="/about" element={<About/>}/>
-        <Route path="/register" element={<Register/>}/>
-        <Route path="/counter" element={<Counter/>}/>
+        <Route path="/blog" element={<Blog />}/>
+        {/* <Route path="/counter" element={<Counter/>}/> */}
 
       </Routes>
       <Footer/>

@@ -105,8 +105,8 @@ function Header(){
                                                         
                                                     </h4>
                                                     <ul class="sub-menu--mega">
-                                                        <li><a href="index.html">Home </a></li>
-                                                        <li><a href="blog-us.html">Blog</a></li>
+                                                        <li><Link to="/">Home </Link></li>
+                                                        <li><Link to="/blog">Blog</Link></li>
                                                         <li><a href="product1.html">Product</a></li>
                                                         <li><a href="about-us.html">About-Us </a></li>
                                                         <li><a href="contact-us.html">Contact-Us</a></li>
@@ -360,8 +360,8 @@ function Header(){
                             <ul class="menu">
 
                                 
-                                <li class="has-mega-menu"><a href="index.html">Home</a></li>
-                                <li class="has-mega-menu"><a href="blog-us.html">Blog</a></li>
+                                <li class="has-mega-menu"><Link to="/">Home</Link></li>
+                                <li class="has-mega-menu"><Link to="/blog">Blog</Link></li>
                                 <li class="has-mega-menu"><a href="product1.html">Our Product</a></li>
                                 <li class="has-mega-menu"><a href="about-us.html">About-Us</a></li>
                                 <li class="has-mega-menu"><a href="contact-us.html">Contact</a></li>
