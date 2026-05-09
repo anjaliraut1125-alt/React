@@ -362,10 +362,10 @@ function Header(){
                                 
                                 <li class="has-mega-menu"><Link to="/">Home</Link></li>
                                 <li class="has-mega-menu"><Link to="/blog">Blog</Link></li>
-                                <li class="has-mega-menu"><a href="product1.html">Our Product</a></li>
-                                <li class="has-mega-menu"><a href="about-us.html">About-Us</a></li>
-                                <li class="has-mega-menu"><a href="contact-us.html">Contact</a></li>
-                                <li class="has-mega-menu"><a href="my-account.html">My Account</a></li>
+                                <li class="has-mega-menu"><Link to="/product">Product</Link></li>
+                                {/* <li class="has-mega-menu"><Link to="/about">About</Link></li> */}
+                                <li class="has-mega-menu"><Link to="/contact">Contact</Link></li>
+                                <li class="has-mega-menu"><Link to="myaccount">MyAccount</Link></li>
 
                              
 

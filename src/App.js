@@ -23,6 +23,10 @@ import {BrowserRouter,Routes,Route} from "react-router-dom";
 // import Child from './Pages/Child';
 import Multipage from './Pages/Multipage';
 import Blog from './Pages/Blog';
+import Contact from './Pages/Contact';
+import Product from './Pages/Product';
+
+
 
 
 function App() {
@@ -78,7 +82,10 @@ function App() {
         <Route path="/" element={<Home/>}/>
         <Route path="/about" element={<About/>}/>
         <Route path="/blog" element={<Blog />}/>
-        {/* <Route path="/counter" element={<Counter/>}/> */}
+        <Route path="/contact" element={<Contact />}/>
+        <Route path="/product" element={<Product />}/>
+
+
 
       </Routes>
       <Footer/>
