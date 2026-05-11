@@ -1,7 +1,7 @@
 import React from "react";
 
 function About(){
-    render(
+    return(
          <div class="ps-about">
             <div class="container">
                 <ul class="ps-breadcrumb">
@@ -28,7 +28,7 @@ function About(){
           
             <div class="container">
                 <section class="ps-section--blog">
-                    <h3 style="background-color: plum; padding: 19px;" class="ps-section__title">From the blog</h3>
+                    <h3 style={{ backgroundColor: "plum", padding: "19px" }} class="ps-section__title">From the blog</h3>
                     <div class="ps-section__carousel">
                         <div class="owl-carousel" data-owl-auto="false" data-owl-loop="true" data-owl-speed="13000" data-owl-gap="0" data-owl-nav="true" data-owl-dots="true" data-owl-item="3" data-owl-item-xs="1" data-owl-item-sm="1" data-owl-item-md="2" data-owl-item-lg="3" data-owl-item-xl="3" data-owl-duration="1000" data-owl-mousedrag="on">
                             <div class="ps-section__item">
