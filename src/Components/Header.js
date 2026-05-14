@@ -365,7 +365,7 @@ function Header(){
                                 <li class="has-mega-menu"><Link to="/blog">Blog</Link></li>
                                 <li class="has-mega-menu"><Link to="/product">Product</Link></li>
                                 <li class="has-mega-menu"><Link to="/Contact">Contact us</Link></li>
-                                {/* <li class="has-mega-menu"><Link to="/myaccount">MyAccount</Link></li> */}
+                                <li class="has-mega-menu"><Link to="/MyAccount">MyAccount</Link></li>
 
                              
 

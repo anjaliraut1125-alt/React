@@ -20,11 +20,14 @@ import Login from './Pages/Login';
 import Register from './Pages/Register';
 
 import {BrowserRouter,Routes,Route} from "react-router-dom";
+
 // import Child from './Pages/Child';
 import Multipage from './Pages/Multipage';
 import Blog from './Pages/Blog';
 import Contact from './Pages/Contact';
 import Product from './Pages/Product';
+import MyAccount from './Pages/MyAccount';
+
 
 
 
@@ -84,6 +87,7 @@ function App() {
         <Route path="/blog" element={<Blog />}/>
         <Route path="/contact" element={<Contact />}/>
         <Route path="/product" element={<Product />}/>
+        <Route path="/MyAccount" element={<MyAccount />}/>
 
 
 
